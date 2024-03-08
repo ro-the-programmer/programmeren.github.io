@@ -1,12 +1,12 @@
 function main() {
     // array vullen met willekeurige waardes tussen de 0 en 100
-    var counter;
-    var array = createArray(50);
+    let counter;
+    let array = createArray(50);
 
     for (counter = 1; counter <= 50; counter++) {
         array[counter - 1] = Math.floor(Math.random() * 100);
     }
-    var bcounter;
+    let bcounter;
 
     bcounter = 0;
     counter = 0;
