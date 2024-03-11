@@ -1,7 +1,7 @@
-function main() {
+
     // array vullen met willekeurige waardes tussen de 0 en 100
     let counter;
-    let array = createArray(50);
+    let array = new Array(50);
 
     for (counter = 1; counter <= 50; counter++) {
         array[counter - 1] = Math.floor(Math.random() * 100);
@@ -26,4 +26,4 @@ function main() {
         counter = counter + 1;
     }
     window.alert("Er is een " + bcounter + ".");
-}
+
