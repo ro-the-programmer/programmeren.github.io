@@ -33,7 +33,7 @@
         }
     }
 bcounter = 0;
-    for (bcounter = 0; bcounter <= arraysize; bcounter++) { 
+    for (bcounter = 0; bcounter < arraysize; bcounter++) { 
         document.getElementById("output").innerHTML +=  " "   
         document.getElementById("output").innerHTML +=  array[bcounter]
     }

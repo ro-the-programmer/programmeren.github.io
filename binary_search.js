@@ -34,14 +34,14 @@
     }
     window.alert("Welke waarde wil je zoeken?");
     bcounter = Number(window.prompt('Enter a value for bcounter'));
-    counter = (double) ;arraysize / 2;
+    counter = arraysize / 2;
     let additive;
 
-    additive = (double) ;arraysize / 2;
+    additive = arraysize / 2;
     while (bcounter != array[counter]) {
 
         // als de additive minder dan 1 is krijgen we problemen, daarom checken we het
-        additive = (double) ;additive / 2;
+        additive = additive / 2;
         if (additive < 1) {
             additive = 1;
         }
